@@ -20,16 +20,16 @@ void main() {
 	for (size_t i = 0; i < 3; i++) {
 		cout << a[i];
 	}
-/*	FILE*u;
-	fopen_s(&u, "phone_book.dat", "rb+");
-//	fopen_s(&u, "phone_book.dat", "wb+");
+	FILE*u=nullptr;
+	
+//	
 	phone_book f;
 	//cin >> f;
 	
 	//f.write_phone_book(u);
 	f.read_phone_book(u);
 	f.sort(f);
-	cout << f;*/
+	cout << f;
 //	cout << a[2][1].get_name();
 	system("pause");
 	//p.set_date_of_birth(ch3);

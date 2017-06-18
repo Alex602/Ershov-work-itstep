@@ -61,8 +61,9 @@ void phone_book::addRecord( Record a)
 		else return;
 }
 
-void phone_book::read_phone_book(FILE * f)
+void phone_book::read_phone_book(FILE *f)
 {
+	fopen_s(&f, "phone_book.dat", "rb+");
 	int size_time;
 	fread_s(&size_time, sizeof(size_time), sizeof(size_time), 1, f);
 	size = size_time;
@@ -111,7 +112,9 @@ void phone_book::read_phone_book(FILE * f)
 			spisok[i].set_telephone(buffer4);
 			delete[]buffer4;
 		}
+		fclose(f);
 	}
+	
 		else return;
 }
 
@@ -140,9 +143,10 @@ phone_book& phone_book::sort(phone_book & a1)
 	}
 }
 
-void phone_book::write_phone_book(FILE*f)
+void phone_book::write_phone_book(FILE *f)
 {
 	if (size > 0 && spisok) {
+		fopen_s(&f, "phone_book.dat", "wb+");
 		int size_time = size;
 		fwrite(&size_time, sizeof(size_time), 1, f);
 		for (size_t i = 0; i < size; i++) {
@@ -167,6 +171,7 @@ void phone_book::write_phone_book(FILE*f)
 			fwrite(&sz4, sizeof(sz4), 1, f);
 			fwrite(spisok[i].get_telephone(), sz4, 1, f);
 		}
+		fclose(f);
 	}
 	else {
 		int zero = 0;

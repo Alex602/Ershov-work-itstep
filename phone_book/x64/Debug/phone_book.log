@@ -1,0 +1,12 @@
+﻿  phone_book.cpp
+c:\users\александр\desktop\phone_book\phone_book\phone_book.cpp(154): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+c:\users\александр\desktop\phone_book\phone_book\phone_book.cpp(158): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+c:\users\александр\desktop\phone_book\phone_book\phone_book.cpp(162): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+c:\users\александр\desktop\phone_book\phone_book\phone_book.cpp(166): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+c:\users\александр\desktop\phone_book\phone_book\phone_book.cpp(170): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+  main.cpp
+  Создание кода...
+c:\users\александр\desktop\phone_book\phone_book\phone_book.cpp(144): warning C4715: phone_book::sort: значение возвращается не при всех путях выполнения
+c:\users\александр\desktop\phone_book\phone_book\phone_book.cpp(252): warning C4715: phone_book::operator[]: значение возвращается не при всех путях выполнения
+  phone_book.vcxproj -> C:\Users\Александр\Desktop\phone_book\x64\Debug\phone_book.exe
+  phone_book.vcxproj -> C:\Users\Александр\Desktop\phone_book\x64\Debug\phone_book.pdb (Full PDB)

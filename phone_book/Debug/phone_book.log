@@ -1,5 +1,0 @@
-﻿  command_lib.cpp
-c:\users\александр\desktop\phone_book\phone_book\command_lib.cpp(142): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\александр\desktop\phone_book\phone_book\command_lib.cpp(152): warning C4018: <: несоответствие типов со знаком и без знака
-  phone_book.vcxproj -> C:\Users\Александр\Desktop\phone_book\Debug\phone_book.exe
-  phone_book.vcxproj -> C:\Users\Александр\Desktop\phone_book\Debug\phone_book.pdb (Full PDB)

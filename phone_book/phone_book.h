@@ -1,6 +1,7 @@
 #pragma once
 #include"phone_book.h"
 #include"Record.h"
+#include<iostream>
 using namespace std;
 class Record;
 class phone_book
@@ -15,10 +16,10 @@ public:
 	/*friend istream& operator >> (istream& is, phone_book &p);
 	friend ostream& operator << (ostream& os, phone_book&p);*/
 	phone_book& sort(phone_book&a1);
-	void write_phone_book(FILE*f);
+	void write_phone_book(FILE *f);
 	void delRecord(); //+
 	void addRecord( Record a); //+
-	void read_phone_book(FILE*f);
+	void read_phone_book(FILE *f);
 	Record& operator[](int); // +/-
 ///	Record& operator[](char*);
 	bool operator==(phone_book&a1); //+
