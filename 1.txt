@@ -1,0 +1,11 @@
+printf_s: https://msdn.microsoft.com/ru-ru/library/239ffwa0.aspx
+Синтаксис описания формата: 
+	https://msdn.microsoft.com/ru-ru/library/56e442dc.aspx
+	type: https://msdn.microsoft.com/ru-ru/library/hf4y5e3w.aspx
+	flags: https://msdn.microsoft.com/ru-ru/library/8aky45ct.aspx
+	width: https://msdn.microsoft.com/ru-ru/library/25366k66.aspx
+	precision: https://msdn.microsoft.com/ru-ru/library/0ecbz014.aspx
+
+
+
+https://msdn.microsoft.com/ru-ru/library/w40768et.aspx
